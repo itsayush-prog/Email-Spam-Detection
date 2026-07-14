@@ -64,9 +64,8 @@ body {
 # -------------------------------
 # Load Model
 # -------------------------------
-model = joblib.load("models/spam_model.pkl")
-vectorizer = joblib.load("models/vectorizer.pkl")
-
+model = joblib.load("spam_model.pkl")
+vectorizer = joblib.load("vectorizer.pkl")
 # -------------------------------
 # Header
 # -------------------------------
